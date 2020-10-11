@@ -1,0 +1,187 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+}
+
+
+#main-navbar {
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-size: 14px;
+    letter-spacing: 0px;
+    height: 50px;
+    left: 0;
+    overflow: hidden;
+    background-color: rgb(12, 12, 12);
+    padding: 0px 40px 40px 40px;
+    color: rgb(230, 230, 230);   
+    width: 100%;
+    text-decoration: none;
+    text-transform: none;
+}
+a {
+    text-transform: none;
+    text-decoration: none;
+}
+.list{
+    color: rgb(230, 230, 230);
+    text-transform: none;
+    text-decoration: none;
+}
+.left-ul li{
+    display: inline;
+    float: left;
+    padding: 3px;
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    margin: 0px 0px 0px 8px;
+}
+.img-nav{
+    padding-top: 0%; 
+    padding-bottom: 20px;
+}
+
+.left-ul li:nth-child(2){
+    margin-left: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 18px;
+}
+.left-ul li:nth-child(5){
+    font-weight: 800;
+    text-decoration: none;
+}
+.right-ul li{
+    display: inline;
+    font-size: 12px;
+    font-weight: 800;
+    float: right;
+    padding: 3px;
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    margin: 0px 0px 0px 8px;
+}
+
+.clr {
+    clear: both;
+}
+.container1 {
+    padding: 0;
+    margin-left: 120px;
+    margin-right: 400px;
+    max-width: 1100px;
+}
+.headline{
+    color: #262626;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 0;
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 900;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+    line-height: 1.13636;
+}
+.subt{
+    float: left;
+    border-radius: 70px;
+    width: 6%;
+    height: 6%;
+    margin: 0.5%;
+}
+.author{
+    font-weight: 700;
+    font-size: 1.06667rem;
+    line-height: 1.5;
+    color: #737373;
+    line-height: 0.5;
+}
+.img{
+    width: 100%;
+    padding-left: 0px;
+}
+a:hover{
+    color: #c00;
+}
+.Lendon{
+    color: #006598;
+    text-decoration: none;
+    transition: color .2s;
+    cursor: pointer;
+}
+
+.hora{
+    font-weight: 400;
+    font-size: 1.06667rem;
+    color: #737373;
+    line-height: 0.5;
+}
+
+.caption{
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    color: #595959;
+    font-size: .9375em;
+    margin-top: 30px;
+}
+.grey-line{
+    color: #fffefe;
+    width:5%;
+    text-align:left;
+    margin-left:0
+}
+p{
+    margin-bottom: 15px;
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    line-height: 1.66667;
+    color: #262626;
+    margin-top: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.float1 {
+    float: left;
+    width: 33%;
+}
+.caption2{
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    color: #595959;
+    font-size: .9375em;
+}
+.caption2:hover{
+    color:#006598;
+}
+.clr{
+    clear: both;
+}
+#noticia1{
+    display: block;
+    width: 100%;
+    color: #404040;
+    height: 36px;
+    border-bottom: solid 1px #e6e6e6;
+    margin-bottom: 24px;
+    margin-left: 120px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: condensed;
+    letter-spacing: 2px;
+    color: #1a1a1a;
+    padding-top: 7px;
+    text-transform: uppercase;
+    font-family: "CNN Condensed", CNN, "Helvetica Neue", Helvetica, Arial, Utkal, sans-serif;
+    font-size: 14px;
+}
+.othernews{
+    margin-left: 80px;
+}
+.othernews2{
+    margin-left: 80px;
+}
