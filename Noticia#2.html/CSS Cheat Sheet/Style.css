@@ -155,7 +155,10 @@ p{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-
+.float1 {
+    float: left;
+    width: 33%;
+}
 .display {
     display: inline-block;
     width: 33%;
